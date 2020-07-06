@@ -141,6 +141,44 @@ public class ControladorDirectorio {
 
         return lista;
     }
+    
+    public String mostrarInformacion(String ruta, String buscar){
+        try {
+            archivo = new File(ruta);
+            archivos = archivo.listFiles();
+            String texto="Informacion: \n";
+            for (File archivo1 : archivos) {
+                if(archivo1.getName().equals(buscar)){
+                    texto = texto+"Direccion: "+archivo1.getAbsolutePath()+"\n";
+                    texto = texto+"Nombre: "+archivo1.getName()+"\n";
+                    long bytes = archivo1.length();
+                    bytes = (bytes) / (1024);
+                    texto = texto+"Peso: "+bytes+" kb \n";
+                    if (archivo1.canRead()) {
+                        texto = texto+"Permiso de Lectura: Verdadero \n";
+                    }else {
+                        texto = texto + "Permiso de Lectura: Falso\n";
+                    }
+                    
+                    if(archivo1.canWrite()){
+                        texto = texto+ "Permiso de Escritura: Verdadero \n";
+                    }else{
+                        texto = texto+ "Permiso de Escritura: Falso \n";
+                    }
+                    
+                    if(!archivo1.isHidden()){
+                        texto = texto+ "Visibilidad: Visible \n";
+                    }else{
+                        texto = texto+ "Visibilidad: Oculto \n";
+                    }
+            
+                }
+            }
+            return texto;
+        } catch (NullPointerException e) {
+            return null;
+        }
+    }
 
     public Double tamañoDeDirectorio(File informacionDeArchivo) {
         File[] nombreDeArchivos = informacionDeArchivo.listFiles();

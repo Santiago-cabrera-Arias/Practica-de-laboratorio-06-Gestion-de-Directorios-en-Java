@@ -343,29 +343,19 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private void btnMostrarInformacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMostrarInformacionActionPerformed
 
-        String archivo = txtRuta.getText() + "/" + lista.getSelectedValue();
-        File ruta = new File(archivo);
-        String informacion = controladorDirectorio.mostrarInformacion(ruta);
-        String escritura = "";
-        String lectura = "";
-        //Indica si se puede escribir.
-        if (ruta.canRead()) {
-            lectura = "Verdadero";
-        } else {
-            lectura = "Falso";
+        if(!lista.isSelectionEmpty()){
+            
+            String nombre = lista.getSelectedValue();
+            String ruta = txtRuta.getText();
+            
+            String texto = controladorDirectorio.mostrarInformacion(ruta,nombre);
+            
+            AreaDatosPq.setText(texto);
+            
         }
-        if (ruta.canWrite()) {
-            escritura = "Verdadero";
-        } else {
-            escritura = "Falso";
-        }
-        // nos permite mostrar los números en pantalla con el formato que queramos
-        DecimalFormat formato = new DecimalFormat("0.00");
-        String tamaño = formato.format(controladorDirectorio.tamañoDeDirectorio(ruta));
-
-        AreaDatosPq.setText(archivo + "\nTamaño de Archivo: " + tamaño + "\nAcceso de Lectura: " + escritura + "\nAcceso de escritura: " + escritura + "\nUltima fecha modificada: " + informacion);
-
-
+        
+    
+        
     }//GEN-LAST:event_btnMostrarInformacionActionPerformed
 
     private void btnLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimpiarActionPerformed
