@@ -33,8 +33,8 @@ public class ControladorDirectorio {
     }
 
     //Eliminar Directorio
-    public void eliminar(String EliminarArchivo) {
-        archivo = new File(EliminarArchivo);
+    public void eliminar(String eliminarDirectorio) {
+        archivo = new File(eliminarDirectorio);
         File[] archivosLista = archivo.listFiles();
         if (archivo.isDirectory()) {
             for (int i = 0; i < archivosLista.length; i++) {
