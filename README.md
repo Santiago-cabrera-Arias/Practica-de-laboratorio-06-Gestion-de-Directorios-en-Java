@@ -2,7 +2,7 @@
 Creacion de un proyecto en java en el que vamos a crear renombrear eliminar un directorio 
 1.	Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 06: Gestión de Directorios en Java” 
 
-![alt text](Screenshot (88))
+![alt text](https://github.com/Santiago-cabrera-Arias/Practica-de-laboratorio-06-Gestion-de-Directorios-en-Java/blob/master/Imgenes%20GitHub/Screenshot%20(81).png)
 
 2.	Desarrollar una aplicación que permita la gestión de Tickets de un parqueadero de vehículos según los requerimientos planteados en las instrucciones de la práctica 
 
