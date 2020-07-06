@@ -7,12 +7,17 @@ Creacion de un proyecto en java en el que vamos a crear renombrear eliminar un d
 2.	Desarrollar una aplicación que permita la gestión de Tickets de un parqueadero de vehículos según los requerimientos planteados en las instrucciones de la práctica 
 
 
- ![alt text](Screenshot (87))
+ ![alt text](https://github.com/Santiago-cabrera-Arias/Practica-de-laboratorio-06-Gestion-de-Directorios-en-Java/blob/master/Imgenes%20GitHub/Screenshot%20(87).png)
 
 
 Imagenes del programa
 
-![alt text](Screenshot (81))
+![alt text](https://github.com/Santiago-cabrera-Arias/Practica-de-laboratorio-06-Gestion-de-Directorios-en-Java/blob/master/Imgenes%20GitHub/Screenshot%20(81).png))
+![alt text](https://github.com/Santiago-cabrera-Arias/Practica-de-laboratorio-06-Gestion-de-Directorios-en-Java/blob/master/Imgenes%20GitHub/Screenshot%20(82).png)
+![alt text](https://github.com/Santiago-cabrera-Arias/Practica-de-laboratorio-06-Gestion-de-Directorios-en-Java/blob/master/Imgenes%20GitHub/Screenshot%20(83).png)
+![alt text](https://github.com/Santiago-cabrera-Arias/Practica-de-laboratorio-06-Gestion-de-Directorios-en-Java/blob/master/Imgenes%20GitHub/Screenshot%20(84).png)
+![alt text](https://github.com/Santiago-cabrera-Arias/Practica-de-laboratorio-06-Gestion-de-Directorios-en-Java/blob/master/Imgenes%20GitHub/Screenshot%20(85).png)
+![alt text](https://github.com/Santiago-cabrera-Arias/Practica-de-laboratorio-06-Gestion-de-Directorios-en-Java/blob/master/Imgenes%20GitHub/Screenshot%20(86).png)
 
 
 
@@ -32,5 +37,5 @@ RECOMENDACIONES:
 •	Programar según las convenciones de los códigos de Java.  
  
 Integrante:  Jorge Santiago Cabrera Arias 
-Firma:  
+Firma:  ![alt text](https://github.com/Santiago-cabrera-Arias/Practica-de-laboratorio-06-Gestion-de-Directorios-en-Java/blob/master/Imgenes%20GitHub/100765640_1114630158904840_378677946409287680_n.jpg)
 
