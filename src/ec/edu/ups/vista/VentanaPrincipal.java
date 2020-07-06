@@ -360,7 +360,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             escritura = "Falso";
         }
         // nos permite mostrar los números en pantalla con el formato que queramos
-        DecimalFormat formato = new DecimalFormat("#0.000");
+        DecimalFormat formato = new DecimalFormat("0.00");
         String tamaño = formato.format(controladorDirectorio.tamañoDeDirectorio(ruta));
 
         AreaDatosPq.setText(archivo + "\nTamaño de Archivo: " + tamaño + "\nAcceso de Lectura: " + escritura + "\nAcceso de escritura: " + escritura + "\nUltima fecha modificada: " + informacion);
